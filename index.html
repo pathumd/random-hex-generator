@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEX Color Changer | By Pathum Danthanarayana</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-center">
+        <h1>HEX Color Changer</h1>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <h1><span class="color" id="hexValue">#6263d5</span></h1>
+        <button class="btn btn-hero" id="btn">Change</button>
+        <div class="divider"></div>
+        <button class="btn btn-copy" onclick="copyToClipboard('#hexValue')" id="copy-btn">Copy #</button>
+      </div>
+    </main>
+    <div class="footer">
+      <h4>Built for the community by <a href="https://instagram.com/pathum.danthanarayana" target="_blank">@pathum.danthanarayana</a></h4>
+    </div>
+    <!-- javascript -->
+    <script src="hex.js"></script>
+  </body>
+</html>
